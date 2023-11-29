@@ -1,0 +1,18 @@
+Napisz stronę na której w osobnych paragrafach znajdą się:
+
+Liczba 1:
+Liczba 2:
+Działanie:
+Wynik:
+
+Oraz buttony:
+Podaj 1 liczbę  (uruchomienie fun1())
+Podaj 2 liczbę  (uruchomienie fun2())
+Podaj działanie (uruchomienie fun3())
+Oblicz          (uruchomienie fun4())
+
+Skrytpy:
+fun1 - pobiera wartość od usera (prompt), jeżeli jest to liczba to wpisuje do paragrafu Liczba 1: wartość, jeżeli nie to Liczba 1: błąd
+fun2 - pobiera wartość od usera (prompt), jeżeli jest to liczba to wpisuje do paragrafu Liczba 2: wartość, jeżeli nie to Liczba 2: błąd
+fun3 - pobiera znak (+-*/) od usera (prompt), jeżeli jest to liczba to wpisuje do paragrafu Działanie: błąd, jeżeli jest to jeden z tych znaków to Liczba 1: znak
+fun4 - używając switch oblicza działanie i wpisuje do paragrafu Wynik: działanie (np 1 2 + da Wynik: 1+2=3)

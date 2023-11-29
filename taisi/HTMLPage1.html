@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" />
+    <title></title>
+    <style>
+        .naglowek {
+            background-color:rgb(255, 102, 102);
+            width:auto;
+        }
+        .jeden {
+            background-color:rgb(255, 204, 204);
+            height:200px;
+            width:33.3%;
+            float:left;
+        }
+        .dwa {
+            background-color: rgb(255, 204, 204);
+            height: 200px;
+            width: 33.3%;
+            float: left;
+        }
+        .trzy {
+            background-color: rgb(255, 204, 204);
+            height: 200px;
+            width: 33.3%;
+            float: left;
+        }
+        .cztery {
+            background-color: rgb(77, 0, 0);
+            height: 300px;
+            width:auto;
+            text-align:center;
+            color: white;
+        }
+        .piec {
+            background-color: #ff8080;
+            height: 50px;
+            width: auto;
+            text-align: center;
+            color: white;
+        }
+        .stopka1 {
+            background-color: rgb(255, 102, 102);
+            width: 49%;
+            padding:10px;
+            float:left;
+        }
+        .stopka2 {
+            background-color: rgb(255, 102, 102);
+            width: 46.5%;
+            padding: 10px;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="naglowek">Naglowek</div>
+    <div class="jeden">
+        <select id="sel1" name="lista" size="10">
+            <option value="zero">0</option>
+            <option value="jeden">1</option>
+            <option value="dwa">2</option>
+            <option value="trzy">3</option>
+            <option value="cztery">4</option>
+            <option value="piec">5</option>
+            <option value="szesc">6</option>
+            <option value="siedem">7</option>
+            <option value="osiem">8</option>
+            <option value="dziewiec">9</option>
+        </select>
+    </div>
+    <div class="dwa">
+        <form>
+            <select id="sel2" name="lista2" size="5">
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+                <option value="mnozenie">*</option>
+                <option value="dzielenie">/</option>
+                <option value="procent">%</option>
+
+
+            </select>
+        </form>
+    </div>
+    <div class="trzy">
+        <select id="sel3" name="lista3" size="10">
+            <option value="zero">0</option>
+            <option value="jeden">1</option>
+            <option value="dwa">2</option>
+            <option value="trzy">3</option>
+            <option value="cztery">4</option>
+            <option value="piec">5</option>
+            <option value="szesc">6</option>
+            <option value="siedem">7</option>
+            <option value="osiem">8</option>
+            <option value="dziewiec">9</option>
+        </select>
+    </div>
+    <div class="cztery">
+        <button onclick="fun1()">Oblicz</button><br />
+
+    </div>
+    <div class="piec"
+    <p id="wynik">Wynik:</p>
+    </div>
+    <script>
+        function fun1() {
+            var liczba1 = document.getElementById("sel1").value;
+            var dzialanie = document.getElementById("sel2").value;
+            var liczba2 = document.getElementById("sel3").value;
+            parseFloat(liczba1) = liczba1;
+            parseFloat(liczba2) = liczba2;
+
+            switch
+
+
+        }
+    </script>
+    <div class="stopka1"></div>
+    <div class="stopka2"></div>
+
+</body>
+</html>

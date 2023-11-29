@@ -1,0 +1,14 @@
+switch (true) {
+    case (x < 5):
+        alert("less than five");
+        break;
+    case (x > 4 && x < 9):
+        alert("between 5 and 8");
+        break;
+    case (x > 8 && x < 12):
+        alert("between 9 and 11");
+        break;
+    default:
+        alert("none");
+        break;
+}

@@ -1,0 +1,78 @@
+<!Doctype>
+<html lang="PL-pl">
+<head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <button onclick="fun1()">Funkcja A</button>
+        <button onclick="fun2()">Funkcja B</button>
+        <button onclick="fun3()">Funkcja C</button>
+        <button onclick="fun4()">Funkcja D</button>
+        <button onclick="fun5()">Funkcja E</button>
+        <button onclick="fun6()">Funkcja F</button>
+    <script>
+        function fun1()
+        {
+        var a=+prompt("podaj a>0");
+        while(a<=0)
+            {
+                alert("podaj dodatnia");
+                var a=+prompt("podaj a>0");
+            }
+        alert(a);
+        }
+        function fun2()
+        {
+        var b=+prompt("podaj b<0");
+        while(b>=0)
+            {
+                alert("podaj ujemna");
+                var b=+prompt("podaj b<0");
+            }
+        alert(b);
+        }
+        function fun3()
+        {
+        var c=+prompt("podaj liczbe od 0 do 10");
+        while(c<0 || c>10)
+            {
+                alert("podaj liczbe od 0 do 10");
+                var c=+prompt("podaj liczbe od 0 do 10");
+            }
+        alert(c);
+        }
+        function fun4()
+        {
+        var d=+prompt("podaj liczbe od -5 do 5");
+        while(d<-5 || d>5)
+            {
+                alert("podaj liczbe od -5 do 5");
+                var d=+prompt("podaj liczbe od -5 do 5");
+            }
+        alert(d);
+        }
+        function fun5()
+        {
+        var e=+prompt("podaj liczbe od -15 do -5");
+        while(e<-15 || e>-5)
+            {
+                alert("podaj liczbe od -15 do -5");
+                var e=+prompt("podaj liczbe od -15 do -5");
+            }
+        alert(e);
+        }
+        function fun6()
+        {
+            do{
+        var f=+prompt("podaj f>=0");
+        while(e<-15 || e>-5)
+            {
+                alert("podaj liczbe od -15 do -5");
+                var e=+prompt("podaj liczbe od -15 do -5");
+            }
+        alert(e);
+        }
+        }
+        </script>
+    </body>
+</html>

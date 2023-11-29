@@ -1,0 +1,6 @@
+fun6() var f; f nie może być ujemne
+fun7() var g; g nie może być dodatnie
+fun8() var h; h nie moze być równe 0
+fun9() var a2; a2 nie może być z zakresu od 2 do 20
+fun10() var a3; a3 nie może być z zakresu od -3 do 3
+fun11() var a4; a4 nie mozę być z zakresu od -5 do 0 */

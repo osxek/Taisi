@@ -1,0 +1,7 @@
+Æwiczenie SWITCH
+
+01. Stwórz zmienn¹ mc. Nadaj jej wartoœæ z zakresu od 1-12. Korzystaj¹c z instrukcji SWITCH wyœwietl nazwê odpowiadaj¹cego miesi¹ca, lub informacje "nie ma takiego miesi¹ca"
+
+02. SprawdŸ, czy w JavaScript w instrukcji SWITCH mo¿na u¿yæ zakresu (jak w przypadku C++)
+
+03. Stwórz zmienn¹ mc. Nadaj jej wartoœæ z zakresu od -10 do 10. Korzystaj¹c z instrukcji IF oraz SWITCH wyœwietl czy zmienna jest dodatnia, ujemna czy równa 0, oraz je¿eli jest dodatnia - czy jest parzysta, je¿eli jest ujemna - czy jest podzielna przez 3 bez reszty.

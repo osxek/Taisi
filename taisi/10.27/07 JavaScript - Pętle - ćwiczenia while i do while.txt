@@ -1,0 +1,13 @@
+/*
+napisz skrypt, który uruchomi buttony (które uruchomią funkcje) które pobiorą zmienne za pomocą prompt:
+fun1() var a; a musi być dodatnie
+fun2() var b; b musi być ujemne
+fun3() var c; c musi być z zakresu od 0 do 10
+fun4() var d; d musi być z zakresu od -5 do 5
+fun5() var e; e musi być z zakresu od -15 do -5
+fun6() var f; f nie może być ujemne
+fun7() var g; g nie może być dodatnie
+fun8() var h; h nie moze być równe 0
+fun9() var a2; a2 nie może być z zakresu od 2 do 20
+fun10() var a3; a3 nie może być z zakresu od -3 do 3
+fun11() var a4; a4 nie mozę być z zakresu od -5 do 0 */

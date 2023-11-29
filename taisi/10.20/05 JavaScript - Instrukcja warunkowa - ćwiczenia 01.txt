@@ -1,0 +1,5 @@
+01. Stwórz zmienn¹ x. Nadaj jej wartoœæ z zakresu od 1 do 7. Napisz kod, który wyœwietli nazwê dnia tygodnia (np. 3 to œroda) lub wyœwietli "nie ma takiego dnia tygodnia"
+
+02. Stwórz 3 zmienne b1 b2 i b3. Wyswietl zmienne w kolejnoœci rosn¹cej.
+
+03. Napisz kod, który sprawdzi czy z odcinków b1 b2 i b3 da siê stworzyæ trójk¹t.

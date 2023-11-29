@@ -1,0 +1,7 @@
+Napisz kod JS który:
+-pobierze 2 zmienne X i Y
+- wyswietli wynik + - + / % tych zmiennych w osobnych linijkach
+  w formie np. : "wynik dodawania 5 + 3 = 8"
+- user podaje 2 zmienne A i B.
+  wyswietli A a potem wynik dwukrotnej inkrementacji A
+  wyswietli b a potem wynik czterokrotnej dekrementacji A
